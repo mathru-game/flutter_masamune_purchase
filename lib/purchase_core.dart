@@ -1,7 +1,7 @@
 part of masamune_purchase;
 
 class PurchaseCore {
-  PurchaseCore._();
+  const PurchaseCore._();
 
   static PurchaseModel get _purchase {
     return readProvider(purchaseModelProvider);
